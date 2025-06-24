@@ -40,7 +40,6 @@ async function initMongo() {
     }
 }
 
-// Utility functions
 const compress = (data) => zlib.deflateSync(Buffer.from(data));
 const decompress = (data) => zlib.inflateSync(data).toString();
 
@@ -325,8 +324,6 @@ async function start() {
     await initMongo();
     server.listen(PORT, () => {
         console.log(`Server running on port ${PORT}`);
-        // console.log(`Health check: http://localhost:${PORT}/health`);
-        // console.log(`Editor URL: http://localhost:${PORT}/editor`);
     });
 }
 
