@@ -11,13 +11,12 @@ When you visit the base URL, a unique editor session is generated. Anyone with t
 - Unique session-based editors (auto-generated on visit)
 - Live syncing of content across clients
 - Optional persistent storage using **MongoDB**
-- Health check endpoint at `/health` for monitoring
 
 ---
 
 ## 🌐 Live Demo
 
-To test locally, visit: [http://localhost:5829](http://localhost:5829)
+Visit: [https://notespot.site](https://notespot.site)
 
 ---
 
